@@ -1,4 +1,20 @@
-body{
+/* Organização CSS /*/
+/* Cabeçalho /*/
+header{
+    margin: 0px;
+    padding: 0px;
+    
+    color: blanchedalmond;
+    background-color: black;
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+/* Navegação caso eu use /*/
+nav{
+
+}
+body{ /* Body é Body ne /*/
     background-image: url("fundo.jpg");
     background-size: cover;
     background-position: center;
@@ -11,7 +27,9 @@ div{
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 0px 30px 30px 30px;
-    position: center;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 80%;
     
     /* filter: drop-shadow(0 0 2em rgb(0, 0, 0)); */
 }
@@ -20,4 +38,10 @@ div{
     text-align: center;
     color: aliceblue;
     font-family: monospace;
+    font-weight: bold;
+}
+
+/* minha main /*/
+main{
+    
 }
