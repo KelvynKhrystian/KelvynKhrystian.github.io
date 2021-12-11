@@ -16,7 +16,7 @@ nav{
 }
 body{ /* Body é Body ne /*/
     background-image: url("fundo.jpg");
-    background-size: cover;
+    background-size: auto auto;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);   
