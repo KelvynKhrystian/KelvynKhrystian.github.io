@@ -165,7 +165,7 @@ section{
     width: 90%;
     margin-left: auto;
     margin-right: auto; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 #habilidades{
@@ -178,6 +178,11 @@ section{
     margin-right: auto; 
     width: 95%;
 
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    color: lemonchiffon;
+
 }
 #projetos{
     margin-top: 30px;
@@ -188,6 +193,11 @@ section{
     margin-left: auto;
     margin-right: auto; 
     width: 95%;
+
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    color: lemonchiffon;
 }
 
 footer{
