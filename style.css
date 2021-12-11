@@ -1,20 +1,23 @@
 body{
-    
+    background-image: url("fundo.jpg");
+    background-size: cover;
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);   
 }
-.listas-redes {
-    line-height: 50px;
-    border-radius: 100%;
-}
-.titulos{
-    color: white;
-}
-h1{
-    text-align: center;
-    color: white;
-   
-}
+/* Div que deixa o fundo fosco e meio transparente */
 div{
-  
+    background-color: rgba(255, 255, 255, 0.100) ;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 0px 30px 30px 30px;
+    position: center;
+    
+    /* filter: drop-shadow(0 0 2em rgb(0, 0, 0)); */
+}
+/* H1 com meu nome logo abaixo do cabeçalho - que está na DIV fosca */
+#khrystian{
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
 }
