@@ -10,7 +10,12 @@ header{
     
     
 }
-h3{
+h2{
+   font-size: 2em;
+   
+    
+}
+#kel{
     margin: 0px;
     margin-left: 50px;
     margin-right: 50px;
@@ -18,16 +23,12 @@ h3{
     padding: 15px;
     display: inline-block;
 
-    
-}
-#kel{
     float: left;
     font-size: 2em;
     margin: 0px;
 }
 #logo{
-    float: right;
-    right: 0px;
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -44,7 +45,6 @@ body{ /* Body é Body ne /*/
     background-size: cover;
     margin: 0px;
     background-color: black, 0.100;
-    
     font-family: monospace;
     color: rgb(0, 0, 0);   
 }
@@ -57,7 +57,8 @@ body{ /* Body é Body ne /*/
     border-radius: 30px 30px 30px 30px;
     margin-left: auto;
     margin-right: auto; 
-    width: 80%;
+    width: 95%;
+    
 }
 /* H1 com meu nome logo abaixo do cabeçalho - que está na DIV fosca */
 #khrystian{
@@ -76,7 +77,7 @@ body{ /* Body é Body ne /*/
 /* minha main /*/
 main{
     margin-top: 30px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.100) ;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 30px 30px 30px 30px;
@@ -91,4 +92,10 @@ footer{
     background-color: black;
     bottom: 0px;
     width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+    padding-top: 15px;
 }
