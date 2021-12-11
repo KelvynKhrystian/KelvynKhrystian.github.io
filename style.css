@@ -1,13 +1,33 @@
 /* Organização CSS /*/
 /* Cabeçalho /*/
 header{
+    
     height: 50px;
     width: 100%;
     color: blanchedalmond;
     background-color: black;
-    text-align:start;
+    text-align: center;
     font-family: monospace;
+    
+    
 }
+h3{
+    margin: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: aliceblue;
+    padding: 5px;
+    
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+a:hover{
+    color: blue;
+}
+
+
 /* Navegação caso eu use /*/
 nav{
 
@@ -16,7 +36,7 @@ body{ /* Body é Body ne /*/
     background-image: url("fundo.jpg");
     background-size: cover;
     margin: 0px;
-    
+    background-color: black, 0.100;
     
     font-family: monospace;
     color: rgb(0, 0, 0);   
@@ -38,21 +58,27 @@ body{ /* Body é Body ne /*/
     color: aliceblue;
     font-family: monospace;
     font-weight: bold;
+    background: -webkit-linear-gradient(#6200ff, #00D4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* minha main /*/
 main{
     margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.100) ;
+    background-color: white;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 30px 30px 30px 30px;
     margin-left: auto;
     margin-right: auto; 
-    width: 90%;
+    width: 95%;
     
 }
 footer{
+    height: 50px;
+    color: blanchedalmond;
     background-color: black;
     bottom: 0px;
+    width: 100%;
 }
