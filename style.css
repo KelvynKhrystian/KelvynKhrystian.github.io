@@ -12,7 +12,7 @@ header{
 }
 h2{
    font-size: 2em;
-   
+
     
 }
 #kel{
@@ -77,14 +77,18 @@ body{ /* Body é Body ne /*/
 /* minha main /*/
 main{
     margin-top: 30px;
+    /*
     background-color: rgba(255, 255, 255, 0.100) ;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 30px 30px 30px 30px;
+
+     */
     margin-left: auto;
     margin-right: auto; 
     width: 95%;
-    
+   
+   
 }
 footer{
     height: 50px;
@@ -98,4 +102,54 @@ footer{
 p{
     margin: 0px;
     padding-top: 15px;
+}
+aside{
+
+    background-color: rgba(255, 255, 255, 0.100) ;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px 30px 30px 30px;
+
+    float: left;
+    color: lemonchiffon;
+    
+    width: 300px;
+    height: 380px;
+    border-radius: 30px;
+
+   
+    text-align: center;    
+}
+#profile{
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#h2aside{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+#paside{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-size: 14px;
+
+}
+#paside2{
+    padding-top: 5px;
+}
+article{
+
+    background-color: rgba(255, 255, 255, 0.100) ;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px 30px 30px 30px;
+
+    color: lemonchiffon;
+
+
+    float: left;
+    
+    max-width: 450px;
 }
