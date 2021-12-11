@@ -1,14 +1,12 @@
 /* Organização CSS /*/
 /* Cabeçalho /*/
 header{
-    margin: 0px;
-    padding: 0px;
-    
+    height: 50px;
+    width: 100%;
     color: blanchedalmond;
     background-color: black;
-    text-align: justify;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
+    text-align:start;
+    font-family: monospace;
 }
 /* Navegação caso eu use /*/
 nav{
@@ -17,13 +15,15 @@ nav{
 body{ /* Body é Body ne /*/
     background-image: url("fundo.jpg");
     background-size: cover;
-    background-position: center;
+    margin: 0px;
     
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: monospace;
     color: rgb(0, 0, 0);   
 }
 /* Div que deixa o fundo fosco e meio transparente */
-div{
+.khrystian{
+    margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.100) ;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
@@ -31,8 +31,6 @@ div{
     margin-left: auto;
     margin-right: auto; 
     width: 80%;
-    
-    /* filter: drop-shadow(0 0 2em rgb(0, 0, 0)); */
 }
 /* H1 com meu nome logo abaixo do cabeçalho - que está na DIV fosca */
 #khrystian{
@@ -44,5 +42,17 @@ div{
 
 /* minha main /*/
 main{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.100) ;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 30px 30px 30px 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 90%;
     
+}
+footer{
+    background-color: black;
+    bottom: 0px;
 }
