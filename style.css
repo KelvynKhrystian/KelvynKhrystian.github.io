@@ -2,11 +2,10 @@
 /* Cabeçalho /*/
 header{
     
-    height: 50px;
+    height: 60px;
     width: 100%;
     color: blanchedalmond;
     background-color: black;
-    text-align: center;
     font-family: monospace;
     
     
@@ -16,8 +15,19 @@ h3{
     margin-left: 50px;
     margin-right: 50px;
     color: aliceblue;
-    padding: 5px;
+    padding: 15px;
+    display: inline-block;
+
     
+}
+#kel{
+    float: left;
+    font-size: 2em;
+    margin: 0px;
+}
+#logo{
+    float: right;
+    right: 0px;
 }
 a{
     text-decoration: none;
