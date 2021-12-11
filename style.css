@@ -1,12 +1,16 @@
 /* Organização CSS /*/
 /* Cabeçalho /*/
 header{
-    
+   
     height: 60px;
     width: 100%;
     color: blanchedalmond;
-    background-color: black;
+   
     font-family: monospace;
+
+    background-color: rgba(255, 255, 255, 0.100) ;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     
     
     
@@ -55,7 +59,7 @@ body{ /* Body é Body ne /*/
     background-color: rgba(255, 255, 255, 0.100) ;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 20px;
     margin-left: auto;
     margin-right: auto; 
     width: 95%;
