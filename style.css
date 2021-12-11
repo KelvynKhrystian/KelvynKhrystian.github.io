@@ -20,12 +20,9 @@ h3{
     
 }
 a{
-    text-decoration:none;
-    color: white;
+    text-decoration: none;
 }
-a:hover{
-    color: blue;
-}
+
 
 
 /* Navegação caso eu use /*/
@@ -58,6 +55,9 @@ body{ /* Body é Body ne /*/
     color: aliceblue;
     font-family: monospace;
     font-weight: bold;
+    font-size: 2em;
+}
+#khrystian:hover{
     background: -webkit-linear-gradient(#6200ff, #00D4FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
