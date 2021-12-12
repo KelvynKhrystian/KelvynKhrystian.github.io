@@ -50,6 +50,11 @@ h2{
    margin: 0px;
    
 }
+#dev{
+    font-size: 2em;
+    padding-top: 10px;
+    font-family: quadranta;
+}
 h3{
     
     display: inline-block;
