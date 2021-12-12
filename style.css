@@ -1,25 +1,60 @@
 /* Organização CSS /*/
+@font-face {
+    font-family: "quadranta" ;
+    src: url(Quadranta-Regular.otf);
+}
+@font-face {
+    font-family: "designer";
+    src: url(DESIGNER.otf) ;
+}
 /* Cabeçalho /*/
 header{
-   
     height: 60px;
     width: 100%;
     color: blanchedalmond;
-   
-    font-family: monospace;
+    
 
     background-color: rgba(255, 255, 255, 0.100) ;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    
+    display: inline-block;
     
     
 }
+#nav{
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+    padding: 8px;
+    margin: 10px;
+}
+#nav1{
+    font-size: 20px;
+    color: rgb(173, 173, 173);
+    padding: 8px;
+    margin: 10px;
+    margin-left: 300px;
+
+
+}
+.nav:hover{
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1{
+    
+}
+
 h2{
    font-size: 2em;
-
-    
+   font-family: monospace;
 }
+h3{
+    
+    display: inline-block;
+    margin:20px;
+}
+
 #kel{
     margin: 0px;
     margin-left: 50px;
@@ -29,8 +64,11 @@ h2{
     display: inline-block;
 
     float: left;
-    font-size: 2em;
-    margin: 0px;
+   
+
+    background: -webkit-linear-gradient(#6200ff, #00D4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 #logo{
     text-align: center;
@@ -39,14 +77,8 @@ a{
     text-decoration: none;
 }
 
-
-
-/* Navegação caso eu use /*/
-nav{
-
-}
 body{ /* Body é Body ne /*/
-    background-image: url("fundo.jpg");
+    background-image: url("fundo2.jpg");
     background-size: cover;
     margin: 0px;
     background-color: black, 0.100;
@@ -63,6 +95,7 @@ body{ /* Body é Body ne /*/
     margin-left: auto;
     margin-right: auto; 
     width: 95%;
+   
     
 }
 /* H1 com meu nome logo abaixo do cabeçalho - que está na DIV fosca */
@@ -72,11 +105,15 @@ body{ /* Body é Body ne /*/
     font-family: monospace;
     font-weight: bold;
     font-size: 2em;
+    font-family: "designer";
+    transition: font-size 2s;
 }
 #khrystian:hover{
-    background: -webkit-linear-gradient(#6200ff, #00D4FF);
+    background: -webkit-linear-gradient(#ff009d, #00D4FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    font-size: 55px;
 }
 
 /* minha main /*/
@@ -112,7 +149,7 @@ aside{
     
     color: lemonchiffon;
     
-    width: 600px;
+    width: 300px;
     height: 400px;
     border-radius: 30px;
     float: left;
@@ -129,6 +166,7 @@ aside{
     margin-top: 5px;
     margin-bottom: 0px;
     padding-top: 0px;
+    font-family: "designer";
 }
 #paside{
     margin-top: 5px;
@@ -148,7 +186,7 @@ article{
     border-radius: 30px 30px 30px 30px;
 
     color: lemonchiffon;
-    
+    font-family: "cera";
     height: 400px;
     max-width: 950px;
     float: right;
@@ -162,6 +200,8 @@ section{
     width: 90%;
     margin-left: auto;
     margin-right: auto; 
+    font-family: monospace;
+    
     
 }
 
