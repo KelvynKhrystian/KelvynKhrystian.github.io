@@ -83,6 +83,7 @@ a{
     text-decoration: none;
     font: bold;
     font-family: monospace;
+    color: white;
 }
 
 body{ /* Body é Body ne /*/
@@ -109,7 +110,7 @@ body{ /* Body é Body ne /*/
 /* H1 com meu nome logo abaixo do cabeçalho - que está na DIV fosca */
 #khrystian{
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     font-family: monospace;
     font-weight: bold;
     font-size: 2em;
@@ -272,10 +273,15 @@ section{
     width: 100px;
     height: 30px;
     padding: auto;
-    
+    font-family: monospace;
     align-items: center;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(175, 175, 175);
+}
+#inicio:hover{
+    background: -webkit-linear-gradient(#ff009d, #0502d6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 footer{
     height: 50px;
