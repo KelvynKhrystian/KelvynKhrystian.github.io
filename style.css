@@ -12,27 +12,28 @@ header{
     height: 60px;
     width: 100%;
     color: blanchedalmond;
-    
-
     background-color: rgba(255, 255, 255, 0.100) ;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
-    display: inline-block;
-    
-    
+    display: inline-block;  
 }
 #nav{
     font-size: 20px;
     color: rgb(173, 173, 173);
-    padding: 8px;
+    padding: 0px;
+    padding-top: 0px;
     margin: 10px;
+   
 }
 #nav1{
     font-size: 20px;
     color: rgb(173, 173, 173);
-    padding: 8px;
+    padding: 0px;
+    padding-top: 0px;
     margin: 10px;
-    margin-left: 300px;
+    margin-left: 350px;
+   
+    
 
 
 }
@@ -46,8 +47,8 @@ h1{
 }
 
 h2{
-   font-size: 2em;
-   font-family: monospace;
+   margin: 0px;
+   
 }
 h3{
     
@@ -75,6 +76,8 @@ h3{
 }
 a{
     text-decoration: none;
+    font: bold;
+    font-family: monospace;
 }
 
 body{ /* Body é Body ne /*/
