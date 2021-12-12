@@ -32,16 +32,13 @@ header{
     padding-top: 0px;
     margin: 10px;
     margin-left: 350px;
-   
-    
-
-
 }
 .nav:hover{
     background: -webkit-linear-gradient(#ffffff, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 h1{
     
 }
@@ -115,14 +112,14 @@ body{ /* Body é Body ne /*/
     font-weight: bold;
     font-size: 2em;
     font-family: "designer";
-    transition: font-size 2s;
+    transition: font-size 1s;
 }
 #khrystian:hover{
     background: -webkit-linear-gradient(#ff009d, #00D4FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-    font-size: 55px;
+    font-size: 50px;
 }
 
 /* minha main /*/
@@ -187,6 +184,22 @@ aside{
 #paside2{
     padding-top: 5px;
 }
+#img1,#img2,#img3,#img4{
+    transition: width 0.3s;
+}
+#img1:hover{
+    width: 40px ;
+}
+#img2:hover{
+    width: 40px ;
+}
+#img3:hover{
+    width: 40px ;
+}
+#img4:hover{
+    width: 40px ;
+}
+
 article{
 
     background-color: rgba(255, 255, 255, 0.100) ;
