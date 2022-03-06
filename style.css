@@ -1,56 +1,67 @@
 /* Organização CSS /*/
-html{
-    scroll-behavior: smooth;
-    
+
+html {
+  scroll-behavior: smooth;
 }
+
 @font-face {
-    font-family: "quadranta" ;
-    src: url(Quadranta-Regular.otf);
+  font-family: "quadranta" ;
+  src: url(Quadranta-Regular.otf);
 }
+
 @font-face {
-    font-family: "designer";
-    src: url(DESIGNER.otf) ;
+  font-family: "designer";
+  src: url(DESIGNER.otf) ;
 }
+
+.fosco {
+  background-color: rgba(255, 255, 255, 0.100) ;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
 /* Cabeçalho /*/
-header{
-    height: 60px;
-    width: 100%;
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-family: designer;
+  
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgb(173, 173, 173);
+  font-size: 15px;
+}
+
+.nav:hover {
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#khrystian{
+    text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgba(255, 255, 255, 0.100) ;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    display: inline-block;  
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "designer";
+    transition: font-size 1s;
 }
-#nav{
-    font-size: 20px;
-    color: rgb(173, 173, 173);
-    padding: 0px;
-    padding-top: 0px;
-    margin: 10px;
-   
-}
-#nav1{
-    font-size: 20px;
-    color: rgb(173, 173, 173);
-    padding: 0px;
-    padding-top: 0px;
-    margin: 10px;
-    margin-left: 350px;
-}
-.nav:hover{
-    background: -webkit-linear-gradient(#ffffff, #ffffff);
+#khrystian:hover{
+    background: -webkit-linear-gradient(#ff009d, #00D4FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
+    font-size: 50px;
 }
 
-h1{
-    
-}
 
-h2{
-   margin: 0px;
-   
-}
 #dev{
     font-size: 2em;
     padding-top: 10px;
@@ -84,12 +95,7 @@ h4{
     
     text-align: center;
 }
-a{
-    text-decoration: none;
-    font: bold;
-    font-family: monospace;
-    color: white;
-}
+
 
 body{ /* Body é Body ne /*/
     background-image: url("fundo2.jpg");
@@ -99,36 +105,7 @@ body{ /* Body é Body ne /*/
     font-family: monospace;
     color: rgb(0, 0, 0);   
 }
-/* Div que deixa o fundo fosco e meio transparente */
-.khrystian{
-    margin-top: 30px;
-    background-color: rgba(255, 255, 255, 0.100) ;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border-radius: 20px;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 95%;
-   
-    
-}
-/* H1 com meu nome logo abaixo do cabeçalho - que está na DIV fosca */
-#khrystian{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 2em;
-    font-family: "designer";
-    transition: font-size 1s;
-}
-#khrystian:hover{
-    background: -webkit-linear-gradient(#ff009d, #00D4FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 
-    font-size: 50px;
-}
 
 /* minha main /*/
 main{
