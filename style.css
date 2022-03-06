@@ -27,6 +27,7 @@ header {
   justify-content: space-evenly;
   padding: 15px;
   font-family: designer;
+  margin-bottom: 20px;
   
 }
 
@@ -44,16 +45,31 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-#khrystian{
-    text-align: center;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Nome com efeito /*/
+.div-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border-radius: 10px;
+    
+}
+
+#name{
+    
     color: rgb(255, 255, 255);
-    font-family: monospace;
     font-weight: bold;
     font-size: 2em;
-    font-family: "designer";
+    font-family: designer;
     transition: font-size 1s;
 }
-#khrystian:hover{
+#name:hover{
     background: -webkit-linear-gradient(#ff009d, #00D4FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -107,25 +123,7 @@ body{ /* Body é Body ne /*/
 }
 
 
-/* minha main /*/
-main{
-    margin-top: 20px;
-    
 
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    width: 95%;
-    height: 500px;
-    display: flex;   
-    /*
-    background-color: rgba(255, 255, 255, 0.100) ;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border-radius: 30px 30px 30px 30px;
-
-     */ 
-}
 p{
     margin: 0px;
     padding-top: 15px;
