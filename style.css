@@ -1,16 +1,14 @@
-/* Organização CSS /*/
-
 html {
   scroll-behavior:smooth;
 }
 
 body { /* Body é Body ne /*/
-    background-image: url("fundo2.jpg");
-    background-size: cover;
-    margin: 0px;
-    background-color: black, 0.100;
-    font-family: monospace;
-    color: rgb(0, 0, 0);   
+  background-image: url("fundo2.jpg");
+  background-size: cover;
+  margin: 0px;
+  background-color: black, 0.100;
+  font-family: monospace;
+  color: rgb(0, 0, 0);   
 }
 
 @font-face {
@@ -37,7 +35,6 @@ header {
   padding: 15px;
   font-family: designer;
   margin-bottom: 20px;
-  
 }
 
 a {
@@ -67,18 +64,17 @@ main {
   align-items: center;
   width: 95%;
   border-radius: 10px;
-    
 }
 
-#name{
-    
+#name {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 2em;
   font-family: designer;
   transition: font-size 1s;
 }
-#name:hover{
+
+#name:hover {
   background: -webkit-linear-gradient(#ff009d, #00D4FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -89,24 +85,104 @@ main {
   display: flex;
   flex-direction: row;
   width: 95%;
-  justify-content: space-evenly;
+  justify-content:space-between;
+  margin-top: 20px;
 }
 
 .container-left {
   border-radius: 10px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
   align-items: center;
   padding: 10px;
+  color: white;
   
 }
 
 .container-rigth {
   border-radius: 10px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
   align-items: center;
   padding: 10px;
-  
-  
-
 }
 
+#p-container-rigth {
+  
+  text-align: start;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0px;
+}
+
+#dev {
+  font-size: 2em;
+  padding-top: 10px;
+  font-family: quadranta;
+  color: white;
+  margin: 0px;
+}
+
+#profile {
+  border-radius: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#name-degrade {
+  font-size: 40px;
+  font-family: designer;
+  background: -webkit-linear-gradient(#ff009d, #00D4FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+  padding: 10px;
+  
+}
+
+#paside{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-size: 15px;
+
+}
+#paside2{
+  
+  margin-top: 5px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+#img1,#img2,#img3,#img4{
+  transition: width 0.3s;
+}
+
+#img1:hover{
+  width: 30px ;
+}
+
+#img2:hover{
+  width: 30px ;
+}
+
+#img3:hover{
+  width: 30px ;
+}
+
+#img4:hover{
+  width: 30px ;
+}
+
+#trybe {
+  background: -webkit-linear-gradient(rgb(6, 175, 0), rgb(0, 255, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
