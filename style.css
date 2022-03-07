@@ -206,20 +206,62 @@ span {
   font-family: designer;
 }
 
+#projeto-nome {
+  font-size: 3em;
+  font-family: designer;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  
+}
+
 .projetos {
-  height: 200px;
   width: 95%;
   border-radius: 10px;
   margin-top: 15px;
 }
+
+#container-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projeto-box{
+  margin: 20px;
+  background-color: rgb(255, 255, 255 0.1);
+  padding: 75px;
+  border: 6px solid;
+  border-image: linear-gradient(227.91deg, #ff00c8 0%, #00E0FF 100%) 1;
+  height: 5px;
+  width: 100px;
+  color: white;
+
+  
+}
+
 
 #servico {
   height: 300px;
   width: 95%;
   border-radius: 10px;
   margin-top: 15px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#service {
+  font-size: 3em;
+  font-family: designer;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
 #inicio {
   margin-top: 40px;
   margin-bottom: 40px;
