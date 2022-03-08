@@ -9,6 +9,10 @@ body { /* Body é Body ne /*/
   background-color: black, 0.100;
   font-family: monospace;
   color: rgb(0, 0, 0);   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
 }
 
 @font-face {
@@ -35,6 +39,7 @@ header {
   padding: 15px;
   font-family: designer;
   margin-bottom: 20px;
+  width: 100%;
 }
 
 a {
@@ -291,4 +296,14 @@ footer{
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+@media screen  and (max-width: 768px){
+  header{
+    display: none;
+  }
+  .container-duplo{
+    flex-wrap: wrap;
+  }
+  
 }
