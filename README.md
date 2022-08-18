@@ -1,3 +1,8 @@
-# Meu primeiro portfólio 1.0
+# Portifólio Kelvyn Khrystian
+## Este repositório possui 2 objetivos
+### Manter o página online e demonstrar minha evolução pessoal a partir do 0!
 
-# KelvynKhystian.github.io
+#### *Primeiro portifólio (feito no dia em que entrei em contato com html)*
+
+
+
