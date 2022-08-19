@@ -1,136 +1,308 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    color: rgb(214, 207, 207);
-
+html {
+  scroll-behavior:smooth;
 }
 
-html {
-    scroll-behavior:smooth;
-  }
+body { /* Body é Body ne /*/
+  background-image: url("fundo2.jpg");
+  background-size: cover;
+  margin: 0px;
+  background-color: black, 0.100;
+  font-family: monospace;
+  color: rgb(0, 0, 0);   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
 
-/* @font-face {
-    font-family: "quadranta" ;
-    src: url(Quadranta-Regular.otf);
-  } */
-  
-  /* @font-face {
-    font-family: "designer";
-    src: url(DESIGNER.otf) ;
-  } */
+@font-face {
+  font-family: "quadranta" ;
+  src: url(Quadranta-Regular.otf);
+}
 
 @font-face {
   font-family: "designer";
-  src: url(/DESIGNER.otf) ;
+  src: url(DESIGNER.otf) ;
 }
 
 .fosco {
-    background-color: rgba(255, 255, 255, 0.100) ;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-  }
-
-header{
-    padding: 10px 20px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgba(255, 255, 255, 0.100) ;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
 }
 
-#header-logo {
-    width: 35px;
-    height: 35px;
+/* Cabeçalho /*/
 
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  font-family: designer;
+  margin-bottom: 20px;
+  width: 100%;
 }
 
-#left-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Gemunu Libre' !important;
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgb(173, 173, 173);
+  font-size: 15px;
 }
 
-header h2 {
-    font-size: medium;
-}
-
-header p {
-    font-size: small;
-    
-}
-
-body {
-    background-image: url("fundo2.jpg");
-    background-size: cover;
+.nav:hover {
+  background: -webkit-linear-gradient(#ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* .box-profile {
-    display: flex;
-    flex-direction: column;
-    width: 95%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: black;
-    
-} */
-
-.box-profile h2 {
-    font-family: 'designer';
-    background: -webkit-linear-gradient(#ff009d, #00D4FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* Nome com efeito /*/
+.div-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  border-radius: 10px;
 }
 
-nav a {
-    margin: 5px 20px;
-    text-decoration:none;
-    text-transform: uppercase;
-    font-family: 'Gemunu Libre' !important;
-    color: white;
-    
-
+#name {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 2em;
+  font-family: designer;
+  transition: font-size 1s;
 }
 
-nav{
+#name:hover {
+  background: -webkit-linear-gradient(#ff009d, #00D4FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}
+
+.container-duplo {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content:space-evenly;
+  margin-top: 20px;
+}
+
+.container-left {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  flex-grow: 1;
+}
+
+.container-rigth {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#p-container-rigth {
+  
+  text-align: start;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  margin: 0px;
+}
+
+#dev {
+  font-size: 2em;
+  padding-top: 10px;
+  font-family: quadranta;
+  color: white;
+  margin: 0px;
+}
+
+#profile {
+  border-radius: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#name-degrade {
+  font-size: 40px;
+  font-family: designer;
+  background: -webkit-linear-gradient(#ff009d, #00D4FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0px;
+  padding: 10px;
+  
+}
+
+#paside{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  font-size: 15px;
+
+}
+#paside2{
+  
+  margin-top: 5px;
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+
+#img1,#img2,#img3,#img4{
+  transition: width 0.3s;
+}
+
+#img1:hover{
+  width: 30px ;
+}
+
+#img2:hover{
+  width: 30px ;
+}
+
+#img3:hover{
+  width: 30px ;
+}
+
+#img4:hover{
+  width: 30px ;
+}
+
+#trybe {
+  background: -webkit-linear-gradient(rgb(6, 175, 0), rgb(0, 255, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-conhecimento {
+  border-radius: 10px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-top: 15px;
+  color: white;
+  width: 95%;
+  font-size: 20px;
+  height: 250px;
+}
+
+#name-conhecimento {
+  font-size: 2.3em;
+  font-family: designer;
+}
+
+#projeto-nome {
+  font-size: 3em;
+  font-family: designer;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  
+}
+
+.projetos {
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#container-project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projeto-box{
+  margin: 20px;
+  background-color: rgb(255, 255, 255 0.1);
+  padding: 75px;
+  border: 6px solid;
+  border-image: linear-gradient(227.91deg, #ff00c8 0%, #00E0FF 100%) 1;
+  height: 5px;
+  width: 100px;
+  color: white;
+
+  
+}
+
+
+#servico {
+  height: 300px;
+  width: 95%;
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#service {
+  font-size: 3em;
+  font-family: designer;
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+#inicio {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-size: 10px;
+  border-radius: 15px;
+}
+
+#inicio-btn {
+  color: white;
+  font-size: 10px;
+  
+}
+
+#inicio:hover{
+  background: -webkit-linear-gradient(#ff009d, #0502d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+footer{
+  height: 30px;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media screen  and (max-width: 768px){
+  header{
     display: none;
-}
-
-#menu-bar {
-  display: none;
-}
-
-.apareceMenu {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    
-
-    background-color: rgba(255, 255, 255, 0.100) ;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-
-}
-
-@media screen and (min-width:600px) {
-    #btn {
-        display: none;
-    }
-    #menu-bar {
-        display: flex;
-    }
-    header {
-        justify-content: space-evenly;
-    }
-
-    
+  }
+  .container-duplo{
+    flex-wrap: wrap;
+  }
+  
 }
