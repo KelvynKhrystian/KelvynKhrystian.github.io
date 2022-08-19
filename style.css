@@ -3,7 +3,7 @@ html {
 }
 
 body { /* Body é Body ne /*/
-  background-image: url("fundo2.jpg");
+  background-image: url("./imgs/fundo2.jpg");
   background-size: cover;
   margin: 0px;
   background-color: black, 0.100;
@@ -17,12 +17,12 @@ body { /* Body é Body ne /*/
 
 @font-face {
   font-family: "quadranta" ;
-  src: url(Quadranta-Regular.otf);
+  src: url(./font/Quadranta-Regular.otf);
 }
 
 @font-face {
   font-family: "designer";
-  src: url(DESIGNER.otf) ;
+  src: url(./font/DESIGNER.otf) ;
 }
 
 .fosco {
