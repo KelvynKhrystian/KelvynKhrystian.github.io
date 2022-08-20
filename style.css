@@ -287,7 +287,7 @@ span {
   
 }
 
-#inicio:hover{
+.btn-voltar-texto:hover{
   background: -webkit-linear-gradient(#ff009d, #0502d6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
