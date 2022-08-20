@@ -266,7 +266,7 @@ span {
   margin-bottom: 0px;
 }
 
-#inicio {
+.btn-voltar {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 10px;
@@ -274,7 +274,7 @@ span {
   border-radius: 15px;
 }
 
-#inicio-btn {
+.btn-voltar-texto {
   color: white;
   font-size: 10px;
   
