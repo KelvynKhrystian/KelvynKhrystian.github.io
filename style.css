@@ -193,7 +193,7 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
-.box-conhecimento-titulo {
+.box-conhecimento {
   border-radius: 10px;
   display: flex;
   justify-content:space-around;
@@ -205,7 +205,7 @@ span {
   height: 250px;
 }
 
-#name-conhecimento {
+.box-conhecimento-titulo {
   font-size: 2.3em;
   font-family: designer;
 }
