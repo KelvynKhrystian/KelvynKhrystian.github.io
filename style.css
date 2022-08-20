@@ -2,7 +2,7 @@ html {
   scroll-behavior:smooth;
 }
 
-body { /* Body é Body ne /*/
+body {
   background-image: url("./imgs/fundo2.jpg");
   background-size: cover;
   margin: 0px;
@@ -79,7 +79,7 @@ main {
   transition: font-size 1s;
 }
 
-#name:hover {
+.box-name-degrade:hover {
   background: -webkit-linear-gradient(#ff009d, #00D4FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
