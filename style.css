@@ -86,7 +86,7 @@ main {
   font-size: 50px;
 }
 
-.container-duplo {
+.box-duplo {
   display: flex;
   flex-direction: row;
   width: 95%;
@@ -94,7 +94,7 @@ main {
   margin-top: 20px;
 }
 
-.container-left {
+.box-duplo-esquerda {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ main {
   flex-grow: 1;
 }
 
-.container-rigth {
+.box-duplo-direita {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -115,7 +115,7 @@ main {
   margin-left: 10px;
 }
 
-#p-container-rigth {
+.box-duplo-direita-texto {
   
   text-align: start;
   color: white;
@@ -124,7 +124,7 @@ main {
   margin: 0px;
 }
 
-#dev {
+.box-duplo-direita-titulo {
   font-size: 2em;
   padding-top: 10px;
   font-family: quadranta;
@@ -132,17 +132,18 @@ main {
   margin: 0px;
 }
 
-#profile {
+.box-duplo-esquerda-img {
   border-radius: 30px;
   margin: 0px;
   padding: 0px;
+  width: 250px;
 }
 
 span {
   font-weight: bold;
 }
 
-#name-degrade {
+.box-duplo-esquerda-degrade-name {
   font-size: 40px;
   font-family: designer;
   background: -webkit-linear-gradient(#ff009d, #00D4FF);
@@ -153,22 +154,28 @@ span {
   
 }
 
-#paside{
+.box-duplo-esquerda-formacao{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
   font-size: 15px;
 
 }
-#paside2{
+.box-duplo-esquerda-status{
   
   margin-top: 5px;
   font-size: 16px;
   margin-bottom: 0px;
 }
 
+.box-duplo-links {
+  margin: 20px;
+}
+
 #img1,#img2,#img3,#img4{
   transition: width 0.3s;
+  width: 25px;
+  border-radius: 30px;
 }
 
 #img1:hover{
@@ -187,7 +194,7 @@ span {
   width: 30px ;
 }
 
-#trybe {
+#trybe-name {
   background: -webkit-linear-gradient(rgb(6, 175, 0), rgb(0, 255, 136));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
