@@ -63,7 +63,7 @@ main {
 }
 
 /* Nome com efeito /*/
-.div-name {
+.box-name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,7 @@ main {
   border-radius: 10px;
 }
 
-#name {
+.box-name-degrade {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 2em;
@@ -210,7 +210,7 @@ span {
   font-family: designer;
 }
 
-#projeto-nome {
+.box-projetos-texto {
   font-size: 3em;
   font-family: designer;
   text-align: center;
@@ -220,20 +220,20 @@ span {
   
 }
 
-.projetos {
+.box-projetos {
   width: 95%;
   border-radius: 10px;
   margin-top: 15px;
 }
 
-#container-project {
+.box-projetos-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.projeto-box{
+.box-projetos-box-projeto{
   margin: 20px;
   background-color: rgb(255, 255, 255 0.1);
   padding: 75px;
@@ -247,7 +247,7 @@ span {
 }
 
 
-#servicos {
+#box-servicos {
   height: 300px;
   width: 95%;
   border-radius: 10px;
@@ -257,7 +257,7 @@ span {
   align-items: center;
 }
 
-#service {
+#services {
   font-size: 3em;
   font-family: designer;
   text-align: center;
