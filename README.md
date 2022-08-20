@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/94154348/185295357-165ee8cb-0b1c-482d-
 
 # Portifólio Fase 2 (HTML e CSS)
 ###  Algumas semanas estudando sobre Linux e seu terminal, Git, Github, HTML Responsivo e CSS Flexbox
-![seg-port](./README/08.png)
+![seg-port](./imgs/08.png)
 
 
 # Portifólio Fase 3  (HTML, CSS, JS)

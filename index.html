@@ -11,54 +11,65 @@
     <body>
 
       <header id="header" class="fosco"> 
-        <a href="#name" class="nav"> Quem Sou </a> 
-        <a href="#name-conhecimento" class="nav"> Conhecimentos </a> 
-        <a href="#projetos" class="nav"> Projetos </a> 
-        <a href="#servico" class="nav" > Serviços </a>     
+        <a href="#perfil" class="header-link"> Quem Sou </a> 
+        <a href="#box-conhecimento" class="header-link"> Conhecimentos </a> 
+        <a href="#box-projetos" class="header-link"> Projetos </a> 
+        <a href="#box-servicos" class="header-link" > Serviços </a>     
       </header>
         
       <main> 
 
-        <article class="div-name fosco"> <h1 id="name"> KHRYSTIAN . DEV </h1> </article>
+        <article class="box-name fosco"> 
+          <h1 class="box-name-degrade">
+            KHRYSTIAN . DEV 
+          </h1> 
+        </article>
 
-        <article class="container-duplo">
+        <article id="perfil" class="box-duplo">
+          
+          <section class="fosco box-duplo-esquerda">
+            
+            <img src="./imgs/perfil.png" alt="Kelvyn" class="box-duplo-esquerda-img" >
 
-          <section class="fosco container-left">
+            <h2 class="box-duplo-esquerda-degrade-name">Kelvyn Khrystian</h2>
 
-            <img src="./profileTOP.png" alt="Kelvyn" width="250px" id="profile" > 
-            <h2 id="name-degrade">Kelvyn Khrystian</h2>  
-            <p id="paside">Desenvolvedor Web Full Stack </p>                
-            <p id="paside2"> <strong>Status: </strong> Em Progresso...  </p> 
+            <p class="box-duplo-esquerda-formacao">Desenvolvedor Web Full Stack </p>
 
-            <h3 id="logo">
+            <p class="box-duplo-esquerda-status">
+              <strong>Status: </strong> Em Progresso...  
+            </p>
+            
+            <div class="box-duplo-links" >
 
               <a  href="https://www.linkedin.com/in/kelvynkhrystian/" target="_blank"> 
-                <img id="img1"  src="./linkedin.png" alt="logo linkedin" width="25px" id="" > 
+                <img id="img1"  src="./imgs/linkedin.png" alt="logo linkedin"> 
               </a>
               <a  href="https://github.com/kelvynkhrystian" target="_blank">
-                <img id="img2"  src="./github.png" alt="logo github" width="25px" id="" > 
+                <img id="img2"  src="./imgs/github.png" alt="logo github"> 
               </a>
               <a  href="https://clicano.link/khystiandev" target="_blank">
-                <img id="img3"  src="./logow.webp" alt="logo github" width="25px" id="" > 
+                <img id="img3"  src="./imgs/logow.webp" alt="logo github"> 
               </a> 
               <a  href="https://www.instagram.com/kelvyn_kk/" target="_blank"> 
-                <img id="img4"  src="./instagram-logo.png" alt="logo instagram" width="25px" border-radius="30px" id="" > 
+                <img id="img4"  src="./imgs/instagram-logo.png" alt="logo instagram"> 
               </a>
-             
-            </h3>
+            </div>
           </section>
           
-          <section class="fosco container-rigth">
-            <h2 id="dev">O Dev que não toma café ...</h2>
+          <section class="fosco box-duplo-direita">
+            <h2 class="box-duplo-direita-titulo">O Dev que não toma café ...</h2>
 
-            <p id="p-container-rigth">
+            <p class="box-duplo-direita-texto">
               Olá, meu nome é Kelvyn Khrystian <br>
               Tenho 25 anos e sou de São Luís - MA <br>
               <br>
               Fascinado por tecnologia desde sempre! <br>
               Ainda indeciso sobre Front-End e Back-End <br>
               <br>
-              Atualmente estudo na <strong id="trybe"> Trybe </strong> buscando me  <br> desenvolver a cada dia que passa, melhorando <br> tanto minhas <strong>Hard Skills </strong> quanto as <strong>Softs Skills</strong> ... <br>
+              Atualmente estudo na <strong id="trybe-name"> Trybe </strong> buscando me
+              <br> desenvolver a cada dia que passa, melhorando 
+              <br> tanto minhas <strong>Hard Skills </strong> quanto as <strong>Softs Skills</strong>...
+              <br>
               <br>
               <strong>#1MêsTrybe #GoTurma19 #VQV #OnNoRecesso </strong>
             </p> 
@@ -66,9 +77,10 @@
           </section>
         </article>  
         
-        <article class="fosco container-conhecimento">
+        <article id="box-conhecimento" class="fosco box-conhecimento">
 
-          <h4 id="name-conhecimento">Conhecimentos</h4>
+          <h4 class="box-conhecimento-titulo">Conhecimentos</h4>
+
           <ul> 
             <li>Linux & Bash</li>
             <li>Git e GitHub</li>
@@ -76,6 +88,7 @@
             <li>CSS</li>
             <li>Javascript</li>
           </ul>
+
           <ul> 
             <li> Linux & Bash </li>
             <li> Git e GitHub </li>
@@ -83,6 +96,7 @@
             <li> CSS </li>
             <li> Javascript </li>
           </ul>
+
           <ul> 
             <li> Linux & Bash </li>
             <li> Git e GitHub </li>
@@ -93,41 +107,30 @@
 
         </article>
 
-        <article id="projetos" class="fosco projetos">
+        <article id="box-projetos" class="fosco box-projetos">
 
-          <h4 id="projeto-nome">Projetos</h4>
+          <h4 class="box-projetos-texto">Projetos</h4>
 
-          <section id="container-project"> 
-
-            <div class="projeto-box">Projeto-01</div>
-            <div class="projeto-box">Projeto-02</div>
-            <div class="projeto-box">Projeto-03</div>
-            <div class="projeto-box">Projeto-04</div>
-            <div class="projeto-box">Projeto-05</div>
-            <div class="projeto-box">Projeto-06</div>
-
+          <section class="box-projetos-box"> 
+            <div class="box-projetos-box-projeto">Projeto-01</div>
+            <div class="box-projetos-box-projeto">Projeto-02</div>
+            <div class="box-projetos-box-projeto">Projeto-03</div>
+            <div class="box-projetos-box-projeto">Projeto-04</div>
+            <div class="box-projetos-box-projeto">Projeto-05</div>
+            <div class="box-projetos-box-projeto">Projeto-06</div>
           </section>
 
         </article>
           
-        <article id="servico" class="fosco">
-
-          <h4 id="service" >Serviços</h4>
-
+        <article id="box-servicos" class="fosco">
+          <h4 id="services" >Serviços</h4>
         </article>
 
-        <div id="inicio" class="fosco"> 
-
-          <a href="#header" id="inicio-btn">Voltar ao início</a> 
-
-        </div>
-
+        <button class="fosco btn-voltar"> 
+          <a href="#header" class="fosco btn-voltar-texto">Voltar ao início</a> 
+        </button>
       </main>
 
-      <footer>
-
-        <p>Desenvolvido por : Kelvyn Khrystian © Todos os direitos reservados </p>
-
-      </footer> 
+      <footer>Desenvolvido por : Kelvyn Khrystian © Todos os direitos reservados</footer> 
     </body>
 </html>

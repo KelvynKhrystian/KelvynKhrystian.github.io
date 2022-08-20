@@ -3,7 +3,7 @@ html {
 }
 
 body { /* Body é Body ne /*/
-  background-image: url("fundo2.jpg");
+  background-image: url("./imgs/fundo2.jpg");
   background-size: cover;
   margin: 0px;
   background-color: black, 0.100;
@@ -17,12 +17,12 @@ body { /* Body é Body ne /*/
 
 @font-face {
   font-family: "quadranta" ;
-  src: url(Quadranta-Regular.otf);
+  src: url(./font/Quadranta-Regular.otf);
 }
 
 @font-face {
   font-family: "designer";
-  src: url(DESIGNER.otf) ;
+  src: url(./font/DESIGNER.otf) ;
 }
 
 .fosco {
@@ -50,7 +50,7 @@ a {
   font-size: 15px;
 }
 
-.nav:hover {
+.header-link:hover {
   background: -webkit-linear-gradient(#ffffff, #ffffff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -63,7 +63,7 @@ main {
 }
 
 /* Nome com efeito /*/
-.div-name {
+.box-name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +71,7 @@ main {
   border-radius: 10px;
 }
 
-#name {
+.box-name-degrade {
   color: rgb(255, 255, 255);
   font-weight: bold;
   font-size: 2em;
@@ -86,7 +86,7 @@ main {
   font-size: 50px;
 }
 
-.container-duplo {
+.box-duplo {
   display: flex;
   flex-direction: row;
   width: 95%;
@@ -94,7 +94,7 @@ main {
   margin-top: 20px;
 }
 
-.container-left {
+.box-duplo-esquerda {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ main {
   flex-grow: 1;
 }
 
-.container-rigth {
+.box-duplo-direita {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -115,7 +115,7 @@ main {
   margin-left: 10px;
 }
 
-#p-container-rigth {
+.box-duplo-direita-texto {
   
   text-align: start;
   color: white;
@@ -124,7 +124,7 @@ main {
   margin: 0px;
 }
 
-#dev {
+.box-duplo-direita-titulo {
   font-size: 2em;
   padding-top: 10px;
   font-family: quadranta;
@@ -132,17 +132,18 @@ main {
   margin: 0px;
 }
 
-#profile {
+.box-duplo-esquerda-img {
   border-radius: 30px;
   margin: 0px;
   padding: 0px;
+  width: 250px;
 }
 
 span {
   font-weight: bold;
 }
 
-#name-degrade {
+.box-duplo-esquerda-degrade-name {
   font-size: 40px;
   font-family: designer;
   background: -webkit-linear-gradient(#ff009d, #00D4FF);
@@ -153,22 +154,28 @@ span {
   
 }
 
-#paside{
+.box-duplo-esquerda-formacao{
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 0px;
   font-size: 15px;
 
 }
-#paside2{
+.box-duplo-esquerda-status{
   
   margin-top: 5px;
   font-size: 16px;
   margin-bottom: 0px;
 }
 
+.box-duplo-links {
+  margin: 20px;
+}
+
 #img1,#img2,#img3,#img4{
   transition: width 0.3s;
+  width: 25px;
+  border-radius: 30px;
 }
 
 #img1:hover{
@@ -187,13 +194,13 @@ span {
   width: 30px ;
 }
 
-#trybe {
+#trybe-name {
   background: -webkit-linear-gradient(rgb(6, 175, 0), rgb(0, 255, 136));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.container-conhecimento {
+.box-conhecimento {
   border-radius: 10px;
   display: flex;
   justify-content:space-around;
@@ -205,12 +212,12 @@ span {
   height: 250px;
 }
 
-#name-conhecimento {
+.box-conhecimento-titulo {
   font-size: 2.3em;
   font-family: designer;
 }
 
-#projeto-nome {
+.box-projetos-texto {
   font-size: 3em;
   font-family: designer;
   text-align: center;
@@ -220,20 +227,20 @@ span {
   
 }
 
-.projetos {
+.box-projetos {
   width: 95%;
   border-radius: 10px;
   margin-top: 15px;
 }
 
-#container-project {
+.box-projetos-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.projeto-box{
+.box-projetos-box-projeto{
   margin: 20px;
   background-color: rgb(255, 255, 255 0.1);
   padding: 75px;
@@ -247,7 +254,7 @@ span {
 }
 
 
-#servico {
+#box-servicos {
   height: 300px;
   width: 95%;
   border-radius: 10px;
@@ -257,7 +264,7 @@ span {
   align-items: center;
 }
 
-#service {
+#services {
   font-size: 3em;
   font-family: designer;
   text-align: center;
@@ -266,7 +273,7 @@ span {
   margin-bottom: 0px;
 }
 
-#inicio {
+.btn-voltar {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 10px;
@@ -274,7 +281,7 @@ span {
   border-radius: 15px;
 }
 
-#inicio-btn {
+.btn-voltar-texto {
   color: white;
   font-size: 10px;
   
