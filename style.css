@@ -29,8 +29,9 @@ header {
   display: flex;
   font-size: 3rem;
   justify-content: space-between;
-  padding: 10px;
+  padding-top: 10px;
   min-height: 5vh;
+  width: 90%;
 }
 
 .degrade {
@@ -77,6 +78,7 @@ header {
   flex-direction: column;
   justify-content: center;
   margin-top: 20px;
+  width: 100%;
 }
 
 .box-duplo-esquerda {
