@@ -251,10 +251,7 @@ span {
   height: 5px;
   width: 100px;
   color: white;
-
-  
 }
-
 
 #box-servicos {
   align-items: center;
@@ -277,6 +274,25 @@ span {
   margin-bottom: 0px;
 }
 
+.btn-voltar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px;
+  font-size: 10px;
+  border-radius: 15px;
+}
+
+.btn-voltar-texto {
+  color: white;
+  font-size: 10px;
+  text-decoration: none;
+}
+
+.btn-voltar-texto:hover{
+  background: -webkit-linear-gradient(#ff009d, #0502d6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
