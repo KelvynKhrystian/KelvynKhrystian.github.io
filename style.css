@@ -3,3 +3,27 @@ html {
   /* Adicione um efeito de rolagem suave ao documento: */
   scroll-behavior:smooth; 
 }
+
+@font-face {
+  font-family: "designer";
+  src: url(./font/DESIGNER.otf) ;
+}
+
+body {
+  background-image: url("./imgs/fundo2.jpg");
+  background-size: cover;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-degrade {
+  background: -webkit-linear-gradient(#ff009d, #00D4FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-family: designer;
+}
