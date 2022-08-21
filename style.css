@@ -243,13 +243,14 @@ span {
 }
 
 .box-projetos-box-projeto{
-  margin: 20px;
+  align-items: center;
   background-color: rgb(255, 255, 255 0.1);
   padding: 75px;
   border: 6px solid;
   border-image: linear-gradient(227.91deg, #ff00c8 0%, #00E0FF 100%) 1;
   height: 5px;
-  width: 100px;
+  margin: 10px;
+  width: 90px;
   color: white;
 }
 
@@ -270,8 +271,6 @@ span {
   font-family: designer;
   text-align: center;
   color: white;
-  margin-top: 30px;
-  margin-bottom: 0px;
 }
 
 .btn-voltar {
