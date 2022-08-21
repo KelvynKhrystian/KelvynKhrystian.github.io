@@ -21,7 +21,7 @@ body {
 
 header {
   display: flex;
-  font-size: 2rem;
+  font-size: 3rem;
   justify-content: space-between;
   padding: 10px;
   min-height: 5vh;
@@ -34,8 +34,8 @@ header {
 }
 
 .img-menu {
-  height: 20px;
-  width: 25px;
+  height: 40px;
+  width: 45px;
 }
 
 .nav {
@@ -185,4 +185,33 @@ footer {
   width: 100%;
   position: absolute;
   bottom: 0;
+}
+
+.face {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+#card {
+  align-items: center;
+  transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.5s;
+
+}
+
+#font {
+  position: absolute;
+}
+
+#back {
+  position: absolute;
+}
+
+.flip {
+  transform: rotateY(180deg);
 }
