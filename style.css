@@ -13,14 +13,17 @@ body {
   background-image: url("./imgs/fundo2.jpg");
   background-size: cover;
   color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: designer;
 }
 
 header {
   display: flex;
-  font-family: designer;
   font-size: 2rem;
   justify-content: space-between;
   padding: 10px;
+  min-height: 10vh;
 }
 
 .degrade {
@@ -53,5 +56,19 @@ header {
   color: white;
   margin: 0.5rem;
   text-decoration: none;
-  font-family: designer;
+}
+
+footer {
+  align-items: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  min-height: 8vh;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
