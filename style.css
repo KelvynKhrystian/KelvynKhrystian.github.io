@@ -1,12 +1,17 @@
 html {
   /* https://www.w3schools.com/CSSref/pr_scroll-behavior.asp */
   /* Adicione um efeito de rolagem suave ao documento: */
-  scroll-behavior:smooth; 
+  scroll-behavior:smooth;
 }
 
 @font-face {
   font-family: "designer";
   src: url(./font/DESIGNER.otf) ;
+}
+
+@font-face {
+  font-family: "quadranta" ;
+  src: url(./font/Quadranta-Regular.otf);
 }
 
 body {
@@ -146,8 +151,47 @@ header {
   margin-right: 5px;
 }
 
+.box-duplo-direita {
+  align-items: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
+  margin-top: 25px;
+  padding: 10px;
+  width: 80%;
+}
 
+.box-duplo-direita-texto {
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
 
+.box-duplo-direita-titulo {
+  font-family: quadranta;
+  color: white;
+}
+
+.box-duplo-esquerda-img {
+  border-radius: 30px;
+  margin: 0px;
+  padding: 0px;
+  width: 250px;
+}
+
+span {
+  font-weight: bold;
+}
+
+#trybe-name {
+  background: -webkit-linear-gradient(rgb(6, 175, 0), rgb(0, 255, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 
 
@@ -185,7 +229,6 @@ footer {
   min-height: 8vh;
   text-align: center;
   width: 100%;
-  position: absolute;
   bottom: 0;
 }
 
