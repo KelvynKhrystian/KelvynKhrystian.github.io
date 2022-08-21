@@ -16,6 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: designer;
+  justify-content: center;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
   font-size: 2rem;
   justify-content: space-between;
   padding: 10px;
-  min-height: 10vh;
+  min-height: 5vh;
 }
 
 .degrade {
@@ -57,6 +58,119 @@ header {
   margin: 0.5rem;
   text-decoration: none;
 }
+
+.fosco {
+  background-color: rgba(255, 255, 255, 0.100) ;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.box-duplo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box-duplo-esquerda {
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 450px;
+  width: 60%;
+}
+
+.box-duplo-esquerda-img {
+  border-radius: 30px;
+  margin: 10px;
+  padding: 0px;
+  width: 210px;
+}
+
+.box-duplo-esquerda-degrade-name {
+  font-size: 40px;
+  font-family: designer;
+  background: -webkit-linear-gradient(#ff009d, #00D4FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  padding: 10px;
+}
+
+.box-duplo-esquerda-formacao{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0px;
+  font-size: 15px;
+  font-family: monospace;
+
+}
+.box-duplo-esquerda-status{
+  margin-top: 5px;
+  font-size: 16px;
+  margin-bottom: 0;
+  font-family: monospace;
+}
+
+.box-duplo-links {
+  margin: 20px;
+}
+
+#img1,#img2,#img3,#img4{
+  transition: width 0.3s;
+  width: 25px;
+  border-radius: 30px;
+}
+
+#img1:hover{
+  width: 30px ;
+}
+
+#img2:hover{
+  width: 30px ;
+}
+
+#img3:hover{
+  width: 30px ;
+}
+
+#img4:hover{
+  width: 30px ;
+}
+
+.img-links {
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
   align-items: center;
