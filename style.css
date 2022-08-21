@@ -1,0 +1,5 @@
+html {
+  /* https://www.w3schools.com/CSSref/pr_scroll-behavior.asp */
+  /* Adicione um efeito de rolagem suave ao documento: */
+  scroll-behavior:smooth; 
+}
