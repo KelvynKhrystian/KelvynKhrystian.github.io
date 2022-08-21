@@ -17,13 +17,41 @@ body {
 
 header {
   display: flex;
-  justify-content: center;
+  font-family: designer;
+  font-size: 2rem;
+  justify-content: space-between;
+  padding: 10px;
 }
 
-.header-degrade {
-  background: -webkit-linear-gradient(#ff009d, #00D4FF);
+.degrade {
+  background: -webkit-linear-gradient(#ff009d, #001aff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 2rem;
+}
+
+.img-menu {
+  height: 20px;
+  width: 25px;
+}
+
+.nav {
+  display: none;
+}
+
+.menu-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  /* Propriedade Fosca */
+  background-color: rgba(255, 255, 255, 0.100) ;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+.nav-names {
+  color: white;
+  margin: 0.5rem;
+  text-decoration: none;
   font-family: designer;
 }
