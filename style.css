@@ -329,7 +329,7 @@ footer {
 }
 
 #font {
-  position: absolute;
+  position: relative;
 }
 
 #back {
