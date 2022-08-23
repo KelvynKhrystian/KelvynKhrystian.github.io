@@ -51,8 +51,10 @@ header {
 
 .menu-flex {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   height: 100%;
+  width: 100%;
 
   /* Propriedade Fosca */
   background-color: rgba(255, 255, 255, 0.100) ;
@@ -220,9 +222,7 @@ span {
   font-family: designer;
   text-align: center;
   color: white;
-  margin-top: 30px;
-  margin-bottom: 0px;
-  
+  margin: 10px;
 }
 
 .box-projetos {
@@ -232,7 +232,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 300px;
+  height: 500px;
   margin-top: 25px;
   width: 90%;
 }
@@ -295,27 +295,6 @@ span {
   -webkit-text-fill-color: transparent;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
   align-items: center;
   background-color: black;
@@ -359,4 +338,61 @@ footer {
 
 .flip {
   transform: rotateY(180deg);
+}
+
+.box-projetos-box img {
+  border-radius: 10px;
+  box-shadow: 5px 3px 3px black;
+  margin: 15px;
+  width: 300px;
+}
+
+#services {
+  font-size: xx-large;
+}
+
+/* responsividade PC */
+
+@media only screen and (min-width: 1001px) {
+
+  .box-duplo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .box-duplo-esquerda {
+    width: 35%;
+  }
+
+  .box-duplo-direita {
+    font-size: 1.2rem;
+    height: 450px;
+    margin-top: 0;
+    width: 60%;
+  }
+
+  .box-duplo-direita-titulo  {
+    font-size: 2.5rem;
+  }
+
+  .box-conhecimento {
+    font-size: x-large;
+  }
+
+  .nav {
+    font-size: xx-large;
+  }
+
+  .btn-voltar {
+    height: 50px;
+    width: 300px;
+  }
+
+  .box-projetos {
+    height: 320px;
+  }
+  
+
 }
