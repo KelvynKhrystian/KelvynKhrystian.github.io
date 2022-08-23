@@ -4,7 +4,7 @@
 
 ## **Atual Portifólio (HTML, CSS e JS)**
 ### utilizando conceitos de Html semântico, CSS flexbox, Eventos em JS e criatividade de ir testando o que eu achava interessante!
-https://user-images.githubusercontent.com/94154348/186057529-1623aa5c-a00f-4c67-afa4-cb0c28a8e80f.mp4
+https://user-images.githubusercontent.com/94154348/186059664-2b6c9c13-c031-4af1-87db-002d7fcae2f4.mp4
 
 # **Primeiro Portifólio (HTML)**
 ### Feito nos primeiros dias estudando HTML
