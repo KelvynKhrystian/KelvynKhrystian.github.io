@@ -1,5 +1,5 @@
 # Kelvyn Khrystian 
-### Portifólio com o objetivo de demonstrar minha evolução pessoal a partir do 0! ao atual (módulo fundamentos).
+### Portifólio com o objetivo de demonstrar minha evolução pessoal a partir do zero ao atual (módulo fundamentos).
 ### Link para o portifólio atual: https://kelvynkhrystian.github.io/
 
 ## **Atual Portifólio (HTML, CSS e JS)**
