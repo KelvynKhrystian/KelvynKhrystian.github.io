@@ -9,6 +9,9 @@ https://user-images.githubusercontent.com/94154348/186069106-1c89fa4f-0a93-4269-
 # **Primeiro Portifólio (HTML)**
 ### Primeiro dia estudando HTML
 ![01](https://user-images.githubusercontent.com/94154348/185300632-dd9fe33f-1868-4637-a694-88dc0af1040b.png)
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 9615da678db3d86a6ed416f31f798228ec740b45
