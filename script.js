@@ -19,4 +19,5 @@ card.addEventListener ("click", function (){
 });
 
 
-alert('portifólio antigo')
+alert('portifólio de + 6 meses atrás')
+alert('novo portifólio em construção (React)')
