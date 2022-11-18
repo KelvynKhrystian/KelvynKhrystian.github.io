@@ -21,4 +21,3 @@ card.addEventListener ("click", function (){
 
 alert('portifólio de + 6 meses atrás')
 alert('novo portifólio em construção (React)')
-alert('link para o novo portifílio logo abaixo!')
